@@ -126,7 +126,8 @@ s, i, em {
     background-color: #F1F1F1;
 }
 
-.site-nav-send{
+.site-nav-send,
+.site-nav-r .fore{
     position: relative;
     padding: 0 25px 0 10px;
 }
@@ -136,19 +137,244 @@ s, i, em {
 
 }
 
-.site-nav-send i{
+.site-nav-send i,
+.fore i{
     position: absolute;
     top: 12px;
     right: 8px;
     width: 15px;
     height: 7px;
-    background-color: red;
+
     font: 400 13px/15px Consolas ;
     overflow: hidden;
 }
 
-.site-nav-send s{
+.site-nav-send s ,
+.fore s{
     font: 400 13px/15px Consolas ;
     position: absolute;
     top: -7px;
+}
+
+.site-nav-r li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.site-nav-r .line{
+    width: 1px;
+    height: 12px;
+    background-color: #DDDDDD;
+    margin-top: 9px;
+    padding: 0px;
+
+}
+.site-nav-r .jd-tel{
+    padding-left: 25px;
+}
+
+.jd-tel span{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    background: url("../images/tel.png") no-repeat ;
+}
+.tb{
+    position: relative;
+}
+.top-banner{
+    background-color: #37C2FB;
+}
+.close-bannger{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 19px;
+    height: 19px;
+    background: url(../images/close-banner.png) no-repeat;
+}
+.close-bannger:hover{
+    background-position: bottom;
+}
+.search-logo{
+    float: left;
+    width: 362px;
+    height: 60px;
+    padding: 20px 0;
+
+}.search-logo a{
+     display: block;
+     width: 270px;
+     height: 60px;
+    text-indent: -9999999em;
+    background: url(../images/logo.png) no-repeat;
+ }
+.search-input{
+    float: left;
+    width: 542px;
+    height: 36px;
+    padding-top: 25px;
+
+}
+.search-input input{
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 4px;
+    font:400 14px/32px "microsoft yahei";
+    color: rgb(153,153,153);
+    border: 2px solid #B61D1D;
+    border-right: 0;
+}
+.search-input button{
+    width: 82px;
+    height: 36px;
+    color: #FFF;
+    font:400 16px/36px "微软雅黑";
+    background-color:#B61D1D ;
+    cursor: pointer;
+}
+.search-car{
+    float: right;
+    width: 96px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 43px;
+    position: relative;
+    margin: 25px 26px 0px 0px;
+    border: 1px solid #DFDFDF;
+    background-color: #F9F9F9;
+}
+.icon1{
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    width: 18px;
+    height: 16px;
+    background: url(../images/tel.png) no-repeat 0 -58px;
+}
+.icon2{
+    position: absolute;
+    right: 10px;
+    color: #999;
+    font-family: "SimSun","宋体";
+}
+.icon3{
+    position: absolute;
+    top: -5px;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px 7px 7px 0px;
+}
+.search-moreALink{
+    float: left;
+    width: 530px;
+    height: 28px;
+    line-height: 28px;
+
+}
+.search-moreALink a{
+    margin-right: 8px;
+}
+.footer-top-slogen{
+    width: 100%;
+    height: 94px;
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 16px;
+    background-color: #F5F5F5;
+}
+.footer-top-slogen-icon{
+    position: absolute;
+    left: 50%;
+}
+
+.footer-top-slogen-icon1{
+    margin-left: -604px;
+}
+
+.footer-top-slogen-icon2{
+    margin-left: -302px;
+}
+
+.footer-top-slogen-icon4{
+    margin-left: 302px;
+}
+.footer-top-shopping dl{
+    float: left;
+    width: 200px;
+}
+.footer-top-shopping dl.last{
+    width: 100px;
+}
+.footer-top-shopping dt,
+.coverage h3{
+    height: 34px;
+    font:400 16px/24px "microsoft yahei" ;
+}
+.footer-top-shopping dd{
+    line-height: 20px;
+}
+.coverage{
+    width: 186px;
+    height: 169px;
+    float: right;
+
+    padding-left: 17px;
+    background: url(../images/china.png) no-repeat left bottom;
+}
+.coverage p{
+    padding-top: 8px;
+}
+.coverage a{
+    float: right;
+}
+.footer-bottom{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0 30px;
+    border-top: 1px solid #E5E5E5;
+}
+.footer-bottom-links a{
+    margin: 0 10px;
+}
+.footer-bottom-copyright{
+    margin: 10px 0;
+}
+.footer-bottom-img a{
+    margin: 0 5px;
+}
+.shortcut-nav{
+    height: 44px;
+    width: 100%;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-nav-menu{
+    width: 210px;
+    height: 44px;
+    float: left;
+    background-color: pink;
+}
+.shortcut-nav-items{
+    width: 730px;
+    height: 44px;
+    float: left;
+    background-color: blue;
+}
+.shortcut-nav-img{
+    width: 200px;
+    height: 44px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 50px;
+    background-color: yellow;
+    /*position: relative;*/
+    /*left: -50px;*/
+    /*top: -10px;*/
 }
